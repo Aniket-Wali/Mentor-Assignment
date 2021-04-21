@@ -9,9 +9,9 @@ class ExtendedBinarySearch {
             arr[i] = sc.nextInt();
         int k = sc.nextInt();
         int position = findMaxPosition(arr); // Finding the maximum element in the array in O(log n)
-        boolean x = binarySearch1(arr, 0, position, k); // Binary Search for Searching for the array in strictly
+        boolean x = binarySearch1(arr, 0, position, k); // Binary Search for Searching the element in strictly
                                                         // increasing array
-        boolean y = binarySearch2(arr, position + 1, n - 1, k); // Binary Search for Searching for the array in strictly
+        boolean y = binarySearch2(arr, position + 1, n - 1, k); // Binary Search for Searching the element in strictly
                                                                 // Decreasing array
         System.out.println(x || y);
     }
