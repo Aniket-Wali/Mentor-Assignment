@@ -1,0 +1,8 @@
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.cph
+.DS_STORE
