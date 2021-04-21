@@ -21,7 +21,7 @@ class TwoDimensionalBinarySearch {
         mid = (start + end) / 2;
         int i = mid / col;
         int j = mid % col;
-        if (i >= matrix[0].length || j >= col)
+        if (i >= matrix.length || j >= col)
             return false;
         if (matrix[i][j] == k)
             return true;
