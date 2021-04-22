@@ -1,4 +1,3 @@
-import java.util.*;
 
 class TwoDimensionalBinarySearch {
     // Searching the element in 2D matrix by implementing binary search.
@@ -29,14 +28,8 @@ class TwoDimensionalBinarySearch {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int column = sc.nextInt();
-        int matrix[][] = new int[row][column];
-        for (int i = 0; i < row; i++)
-            for (int j = 0; j < column; j++)
-                matrix[i][j] = sc.nextInt();
-        int k = sc.nextInt();
+        int matrix[][] = {{1,2,3,4}, {5,6,7,8}, {9, 10, 11, 12}};
+        int k = 7;
         System.out.println(binarySearchIn2D(matrix, k));
     }
 }
